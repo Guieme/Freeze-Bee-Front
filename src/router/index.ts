@@ -4,12 +4,18 @@ import HomePageView from "@/views/HomePageView.vue";
 import ProcessView from "@/views/ProcessView.vue";
 import ProductView from "@/views/ProductView.vue";
 import IngredientView from "@/views/IngredientView.vue";
+import LoginView from "@/views/LoginView.vue";
 
 const routes = [
     {
         path: '/',
         name: 'home',
         component: HomePageView
+    },
+    {
+        path: '/login',
+        name: 'login',
+        component: LoginView
     },
     {
         path: '/process',
